@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+html,body {
+    height: 100%;
+width: 100%;
+
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: #fff;
+}
+#nav{
+    height: 90px;
+width: 100%;
+
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 0px 50px ;
+}
+#nav1{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+
+}
+#nav h3{
+    font-size:  17px;
+    border: 1.5px solid #000;
+    padding: 7px 12px;
+    border-radius: 50px;
+    font-weight: 500px;
+
+}
+#nav2 h1{
+    font-weight: 500px;
+    font-size: 22px;
+
+}
+#nav button{
+    font-size:  17px;
+    border: 1.5px solid #000;
+    padding: 7px 12px;
+    border-radius: 50px;
+    font-weight: 600px;
+    
+
+   
+}
+#btn2{
+    border: none;
+    background-color: rgb(255, 68, 0);
+    color: #fff;
+}
+#advan{
+    font-size: 150px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) !important;
+    width: 100%;
+    color: rgb(0, 0, 0);
+    text-align: center;
+
+
+    
+}
+#img1{
+    height:500px;
+    width: 400px;
+    object-fit: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)rotate(-30deg) !important;
+    border-radius: 20px;
+
+}
+#img2{
+height:500px;
+width: 400px;
+object-fit: cover;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%)rotate(-20deg) !important;
+border-radius: 20px;
+
+}
+#img3{
+height:500px;
+width: 400px;
+object-fit: cover;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%)rotate(-10deg)!important;
+border-radius: 20px;
+
+}
+
+#img4{
+height:500px;
+width: 400px;
+object-fit: cover;
+position: absolute;
+top: 50%;
+left: 50%;
+transform : translate(-50%, -50%);
+border-radius: 20px;
+}
+
